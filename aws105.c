@@ -10,24 +10,23 @@ int main() {
         if (total > 80) {
             printf("A\n");
             printf("F %d\n", total - 80); 
-            printf("\n");
+
         } else if (total >= 70) {
             printf("B\n");
             printf("%d\n", 81 - total);
-            printf("\n");
+
 
         } else if (total >= 60) {
             printf("C\n");
             printf("%d\n", 81 - total);
-			printf("\n"); 
+ 
         } else if (total >= 50) {
             printf("D\n");
             printf("%d \n", 81 - total);
-            printf("\n");
+
         } else {
             printf("F\n");
             printf(" %dA\n", 81 - total);
-			printf("\n"); 
         }
 
 
